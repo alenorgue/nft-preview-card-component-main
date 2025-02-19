@@ -1,11 +1,14 @@
 body {
-    width: 375px;
     background-color: hsl(217, 54%, 11%);
-    padding: 50px 30px;
+    padding: 20px 5px;
     font-size: 18px;
     color: hsl(215, 51%, 70%);
     font-weight: 300;
     font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -16,6 +19,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 275px;
 }
 
 #image-equilibrium {
