@@ -3,20 +3,23 @@ body {
     background-color: hsl(217, 54%, 11%);
     padding: 50px 30px;
     font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-family: "Outfit", sans-serif;
 }
 
 .card {
     background-color: hsl(216, 50%, 16%);
-    padding: 25px;
+    padding: 30px;
     border-radius: 15px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #image-equilibrium {
-    width: 250px;
-    border-radius: 15px;
-}
-
-.image {
+    width: 100%;
     border-radius: 15px;
 }
 
@@ -32,4 +35,36 @@ body {
 h1 {
     color: hsl(0, 0%, 100%);
     font-size: 20px;
+    font-weight: 600;
+}
+
+.bottom-line-info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid;
+    padding-bottom: 15px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.creator {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#image-avatar {
+    width: 40px;
+    border: 0.5px solid white;
+    border-radius: 100%;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
 }
